@@ -16,3 +16,15 @@ I created a git ignore file to avoid any issue with .DS_Store. The first thing I
 ## Stage and Commit the Template to Git
 
 In this step, I will be adding the website files to the Git repository. To do this successfully, I need to first stage the website files `git add .`. Next, I set my git global configuration with my git username and email, `git config --global user.name "madusug"` and `git config --global user.email "jamesmadusha@gmail.com"`. Next step is to commit the changes in the staging environment `git commit -m "Initial commit with basic e-commerce site structure"`.
+
+![StageCommit](./img/3%20First%20Stage%20and%20Commit.png)
+
+
+## Push the code to your GitHub repository
+
+Here, I created a repository on Github to allow for easy storage, sharing, and collaboration. I created the repository named "MarketPeak_Ecommerce" on my remote GitHub. To connect my remote repo to my local repo, I ran the following: `git remote add origin https://github.com/madusug/MarketPeak_Ecommerce.git`. To push the contents of my local repo to my remote repo, I used `git push -u origin main`.
+
+![PushGit](./img/4%20Remote%20Repo.png)
+![PushCode](./img/5%20Remote%20Add%20Push.png)
+![RemoteAfter](./img/5%20After%20push.png)
+
